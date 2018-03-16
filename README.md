@@ -65,7 +65,7 @@ start docker-compose
 docker-compose up -d 
 ```
 
-can use **  --build ** at the first time build project.
+can use **--build** at the first time build project.
 
 stop and remove 
 ```
@@ -77,4 +77,8 @@ show all containers running
 docker container ls
 ```
 
-and then show all within exited containers, use **  ls -a **
+and then show all within exited containers, use **ls -a**
+
+## hub.docker.com
+
+for download image  [anelhaman/dockercompose_golang](https://hub.docker.com/r/prch12/docker_golang/)
