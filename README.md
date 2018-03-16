@@ -1,26 +1,29 @@
-Invention over Configuration
----
+## Invention over Configuration
+
+```
 .
 ├── docker-compose.yml
 └── golang
     ├── app.go
     └── dockerfile
+```
 
 1 directory, 4 files
 
 
-dockerfile
----
+## dockerfile
 
+```
 FROM golang:1.8
 WORKDIR /go/src/app
 COPY . .
 
 RUN go get github.com/gin-gonic/gin
 RUN go install github.com/gin-gonic/gin
+```
 
-app.go
----
+## app.go
+```
 package main
 
 import "github.com/gin-gonic/gin"
@@ -34,10 +37,11 @@ func main() {
 	})
 	r.Run()
 }
+```
 
-docker-compose.yml
----
+## docker-compose.yml
 
+```
 version: '3.4'
 services:
   golang:
@@ -48,3 +52,4 @@ services:
     command: ["go","run","app.go"]
     ports:
       - "8001:8080"
+```
