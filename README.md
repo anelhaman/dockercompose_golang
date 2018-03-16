@@ -53,3 +53,28 @@ services:
     ports:
       - "8001:8080"
 ```
+
+
+###Command to use on docker compose
+
+## docker-compose
+
+start docker-compose
+
+```
+docker-compose up -d 
+```
+
+can use **  --build ** at the first time build project.
+
+stop and remove 
+```
+docker-compose down
+```
+
+show all containers running
+```
+docker container ls
+```
+
+and then show all within exited containers, use **  ls -a **
