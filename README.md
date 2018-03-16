@@ -81,4 +81,4 @@ and then show all within exited containers, use **ls -a**
 
 ## hub.docker.com
 
-for download image  [anelhaman/dockercompose_golang](https://hub.docker.com/r/prch12/docker_golang/)
+for download image [anelhaman/docker_golang](https://hub.docker.com/r/prch12/docker_golang/)
