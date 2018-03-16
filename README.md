@@ -55,7 +55,7 @@ services:
 ```
 
 
-###Command to use on docker compose
+### Command to use on docker compose
 
 ## docker-compose
 
